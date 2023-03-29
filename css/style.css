@@ -1,21 +1,38 @@
 /*
-    Para chamar um ID use o #nomeDoId
+    Sinal de * significa que estou "pegando" todos os elementos existentes no documento
 */
-/*
-    E para chamar um código que está dentro do id, basta colocá-lo na frente, se utilizar o sinal de > apenas o que está diretamente dentro da div mencionada será afetado
-*/
-#div1 h1{
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    width: 900px;
+    margin: 10px auto;
+    text-align: center;
+    /*
+        Margin = Espaçamento externo do elemento
+        Padding = Espaçamento interno do elemento
+    */
+}
+
+.menu a{
     color: red;
+    padding-right: 8px;
+    border-right: 3px solid red ;
+    font-size: 20px;
+    margin: 0 10px;
+
+
+
+    /*
+        "Maring: 0 10px"
+        0 = Cima, baixo
+        10px = Direita, esquerda
+    */
 }
-
-/*
-    Para chamar uma classe use um .
-*/
-
-.div2 h1{
-    color: green;
-}
-
-/*
-    ATENÇÃO: NUNCA SE REPETE UM ID, APENA A CLASS
-*/
