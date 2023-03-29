@@ -1,0 +1,21 @@
+/*
+    Para chamar um ID use o #nomeDoId
+*/
+/*
+    E para chamar um código que está dentro do id, basta colocá-lo na frente, se utilizar o sinal de > apenas o que está diretamente dentro da div mencionada será afetado
+*/
+#div1 h1{
+    color: red;
+}
+
+/*
+    Para chamar uma classe use um .
+*/
+
+.div2 h1{
+    color: green;
+}
+
+/*
+    ATENÇÃO: NUNCA SE REPETE UM ID, APENA A CLASS
+*/
